@@ -16,12 +16,12 @@
     <tags>Protocol Buffers Binary Serialization Format Google proto proto3</tags>
   </metadata>
   <files>
-    <file src="protoc\windows_x86\protoc.exe" target="tools\windows_x86\protoc.exe"/>
-    <file src="protoc\windows_x64\protoc.exe" target="tools\windows_x64\protoc.exe"/>
-    <file src="protoc\linux_x86\protoc" target="tools\linux_x86\protoc"/>
-    <file src="protoc\linux_x64\protoc" target="tools\linux_x64\protoc"/>
-    <file src="protoc\macosx_x86\protoc" target="tools\macosx_x86\protoc"/>
-    <file src="protoc\macosx_x64\protoc" target="tools\macosx_x64\protoc"/>
+    <file src="protoc\win64\bin\protoc.exe" target="tools\win64\protoc.exe"/>
+    <file src="protoc\win32\bin\protoc.exe" target="tools\win32\protoc.exe"/>
+    <file src="protoc\linux_32\bin\protoc" target="tools\linux_32\protoc"/>
+    <file src="protoc\linux_64\bin\protoc" target="tools\linux_64\protoc"/>
+    <file src="protoc\osx-32\bin\protoc" target="tools\osx-32\protoc"/>
+    <file src="protoc\osx-64\bin\protoc" target="tools\osx-64\protoc"/>
     <file src="..\src\google\protobuf\any.proto" target="tools\google\protobuf"/>
     <file src="..\src\google\protobuf\api.proto" target="tools\google\protobuf"/>
     <file src="..\src\google\protobuf\descriptor.proto" target="tools\google\protobuf"/>
